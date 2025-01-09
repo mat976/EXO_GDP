@@ -22,11 +22,6 @@ class PlatType extends AbstractType
                 'class' => categorie::class,
                 'choice_label' => 'id',
             ])
-            ->add('menus', EntityType::class, [
-                'class' => Menu::class,
-                'choice_label' => 'id',
-                'multiple' => true,
-            ])
         ;
     }
 
